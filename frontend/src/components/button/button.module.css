@@ -10,3 +10,7 @@
     margin: 8px;
 }
 
+.btn:hover {
+    background-color: black;
+    color: white;
+}

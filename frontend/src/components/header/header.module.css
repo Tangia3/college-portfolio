@@ -1,7 +1,30 @@
-/* :root {
-    display: inline;
-} */
+:root { 
+    padding: 20px 20px 20px 20px; 
 
-.title {
-    font-size: 80px;
+    --indent: 20px; 
+} 
+ 
+header { 
+    padding: var(--indent); 
+    justify-content: space-between; 
+    display: flex; 
+} 
+ 
+.title { 
+    width: 589px; 
+    margin: 0; 
+      
+    line-height: 80px; 
+    font-size: 80px; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold; 
+} 
+ 
+.navBtn { 
+    display: -webkit-box; 
+
+    float: right; 
+
+    height: 30px; 
+    padding-top: 130px; 
 }
